@@ -3,13 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(131, 131, 131, 0.274)), url(../img/fondo.png);
+    background-size: cover;
+    min-height: 100vh;
+}
 nav{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 1rem;
 }
 .img-nav{
     width: 70px;
     object-fit: contain;
+}
+.banner{
+    color: #d6d6d6;
+    text-shadow: 0px 0px 3px #000;
+}
+.banner h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.banner h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+#cards{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.card-mentoring{
+    background-color: #dbdbdb;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+    color: #000;
 }
