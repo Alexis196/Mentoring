@@ -12,24 +12,29 @@ fetch('./data.json')
             return `
             <div class="card-mentoring">
                 <div class="mentor">
-                    <img class="img-perfil" src="${user.mentor.foto_perfil}" class="card-img-top" alt="${user.mentor.nombre}">
+                    <a href="${user.mentor.link}" target="_blank">
+                        <img class="img-perfil" src="${user.mentor.foto_perfil}" class="card-img-top" alt="${user.mentor.nombre}">
+                    </a>
                     <div class='info-mentor'>
                         <span>${user.mentor.rol}</span>
                         <h4 class="card-title">${user.mentor.nombre} ${user.mentor.apellido}</h4>
                     </div>
                 </div>
-                <div class="sala">
-                    <p class="text-sala">Sala: ${user.mentor.sala}</p>
+                <div class="SALA">
+                    <p class="text-SALA">SALA ${user.mentor.SALA}</p>
                 </div>
                 <div class="mentee">
-                    <div class='info-mentee'>
-                        <span>${user.mentee.rol}</span>
-                        <h4 class="card-text">${user.mentee.nombre} ${user.mentee.apellido}</h4>
-                    </div>
-                    <img class="img-perfil" src="${user.mentee.foto_perfil}" class="card-img-top" alt="${user.mentor.nombre}">
+                        <div class='info-mentee'>
+                            <span>${user.mentee.rol}</span>
+                            <h4 class="card-text">${user.mentee.nombre} ${user.mentee.apellido}</h4>
+                        </div>
+                    <a href="${user.mentee.link}" target="_blank">
+                        <img class="img-perfil" src="${user.mentee.foto_perfil}" class="card-img-top" alt="${user.mentee.nombre}">
+                    </a>
                 </div>
             </div>`;
         }
+        
 
         search.addEventListener('keyup', (e) => {
             const busqueda = e.target.value.toLowerCase();
