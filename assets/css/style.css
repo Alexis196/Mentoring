@@ -6,6 +6,7 @@
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(131, 131, 131, 0.274)), url(../img/fondo.png);
     background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
 }
 nav{
@@ -36,13 +37,18 @@ nav{
     width: 95%;
     margin: auto;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 1rem;
 }
 .card-mentoring{
+    display: flex;
     background-color: #dbdbdb;
-    width: 300px;
+    width: 375px;
     height: 200px;
     border: 1px solid #000;
     color: #000;
+}
+.img-perfil{
+    width: 80px;
 }
