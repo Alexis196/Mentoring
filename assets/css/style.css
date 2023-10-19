@@ -3,13 +3,119 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(131, 131, 131, 0.274)), url(../img/fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
 nav{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 1rem;
 }
 .img-nav{
     width: 70px;
     object-fit: contain;
+}
+.banner{
+    color: #d6d6d6;
+    text-shadow: 0px 0px 3px #000;
+}
+.banner h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.banner h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.buscador{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+#search-input{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 1rem;
+    border: 1px solid #ff9327;
+    border-radius: 10px 0px 0px 10px;
+}
+.lupa{
+    border: 1px solid #ff9327;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#cards{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.card-mentoring{
+    width: 375px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    background-image: linear-gradient(144deg,#6bd7f7, #6bd7f7 30%, #c2c2c2);
+    border: 2px solid #ff8002;
+    border-radius: 10px;
+}
+.img-perfil{
+    width: 80px;
+    height: 80px;
+    padding: .3rem;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.mentor{
+    height: 80px;
+    margin-top: .5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+.mentee{
+    height: 80px;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+.info-mentor{
+    width: 235px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-mentee{
+    width: 235px;
+    margin-left: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.SALA{
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+.text-SALA{
+    border: 1px dashed #ff9327;
+    margin: 0;
+    font-size: 18px;
+    text-shadow: 0px 0px 1px #ff9327;
 }
