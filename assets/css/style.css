@@ -42,13 +42,46 @@ nav{
     gap: 1rem;
 }
 .card-mentoring{
-    display: flex;
-    background-color: #dbdbdb;
     width: 375px;
-    height: 200px;
-    border: 1px solid #000;
-    color: #000;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    background-image: linear-gradient(144deg,#2ea4d2, #6bd7f7 30%, #c2c2c2);
+    border: 4px solid #ff9327;
+    border-radius: 10px;
 }
 .img-perfil{
     width: 80px;
+    height: 80px;
+    padding: .3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.mentor{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.mentee{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4rem;
+}
+.info-mentee{
+    display: flex;
+    flex-direction: column;
+}
+.sala{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+.text-sala{
+    margin: 0;
+    font-size: 18px;
+    text-shadow: 0px 0px 1px #ff9327;
 }
