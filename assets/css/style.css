@@ -59,6 +59,7 @@ nav{
     gap: 1rem;
 }
 .card-mentoring{
+    margin: 1rem;
     width: 375px;
     height: 100%;
     display: flex;
@@ -107,7 +108,6 @@ nav{
     flex-direction: column;
 }
 .SALA{
-
     font-size: 24px;
     font-weight: bold;
     color: #000000;
