@@ -59,6 +59,7 @@ nav{
     gap: 1rem;
 }
 .card-mentoring{
+    margin: 1rem;
     width: 375px;
     height: 100%;
     display: flex;
