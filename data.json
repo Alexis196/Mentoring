@@ -79,7 +79,7 @@
         "mentee": {
             "nombre": "Camila",
             "apellido": "Del Valle",
-            "foto_perfil": "https://i.postimg.cc/cthZLmcQ/Camila-Del-Valle.jpg",
+            "foto_perfil": "https://i.postimg.cc/0yyMydLC/Camila-del-Valle.jpg",
             "rol": "Mentee",
             "link":"https://www.linkedin.com/in/camila-del-valle-94669b265/"
         } 
@@ -190,7 +190,7 @@
         "mentor": {
             "nombre": "Florencia Camila",
             "apellido": "Muratore",
-            "foto_perfil": "https://i.postimg.cc/Jtw5sckf/persona.jpg",
+            "foto_perfil": "https://i.postimg.cc/dV33YQyH/jpmorgan.jpg",
             "rol": "Mentor",
             "SALA": 12,
             "link": "#"
@@ -241,7 +241,7 @@
         "mentor": {
             "nombre": "Gonzalo Pablo",
             "apellido": "Belocopitow",
-            "foto_perfil": "https://i.postimg.cc/Jtw5sckf/persona.jpg",
+            "foto_perfil": "https://i.postimg.cc/dV33YQyH/jpmorgan.jpg",
             "rol": "Mentor",
             "SALA": 15,
             "link": "https://www.linkedin.com/in/gonzalo-belocopitow-cfa-9b267398/"
@@ -326,7 +326,7 @@
         "mentor": {
             "nombre": "Hernan Eduardo",
             "apellido": "Bottinelli",
-            "foto_perfil": "https://i.postimg.cc/Jtw5sckf/persona.jpg",
+            "foto_perfil": "https://i.postimg.cc/dV33YQyH/jpmorgan.jpg",
             "rol": "Mentor",
             "SALA": 20,
             "link": "https://www.linkedin.com/in/hernanbottinelli/"
@@ -377,7 +377,7 @@
         "mentor": {
             "nombre": "Ivana Andrea",
             "apellido": "Ortega",
-            "foto_perfil": "https://i.postimg.cc/Jtw5sckf/persona.jpg",
+            "foto_perfil": "https://i.postimg.cc/dV33YQyH/jpmorgan.jpg",
             "rol": "Mentor",
             "SALA": 22,
             "link":""
@@ -393,8 +393,8 @@
     {
         "mentor": {
             "nombre": "José",
-            "apellido": "Rodiguez Albarran",
-            "foto_perfil": "https://i.postimg.cc/Jtw5sckf/persona.jpg",
+            "apellido": "Rodriguez Albarran",
+            "foto_perfil": "https://i.postimg.cc/G88F1bCq/Jose-Rodriguez.jpg",
             "rol": "Mentor",
             "SALA": 23,
             "link": "#"
@@ -411,7 +411,7 @@
         "mentor": {
             "nombre": "José",
             "apellido": "Rodiguez Albarran",
-            "foto_perfil": "https://i.postimg.cc/Jtw5sckf/persona.jpg",
+            "foto_perfil": "https://i.postimg.cc/G88F1bCq/Jose-Rodriguez.jpg",
             "rol": "Mentor",
             "SALA": 23,
             "link": "#"
@@ -482,7 +482,7 @@
             "foto_perfil": "https://i.postimg.cc/ZBNvgqdy/Maira-Villegas-Traverso.jpg",
             "rol": "Mentor",
             "SALA": 26,
-            "link": "https://www.linkedin.com/in/maira-g-villegas-traverso-744679167/overlay/photo/"
+            "link": "https://www.linkedin.com/in/maira-g-villegas-traverso-744679167/"
         },
         "mentee": {
             "nombre": "Micaela",
@@ -499,7 +499,7 @@
             "foto_perfil": "https://i.postimg.cc/ZBNvgqdy/Maira-Villegas-Traverso.jpg",
             "rol": "Mentor",
             "SALA": 26,
-            "link": "https://www.linkedin.com/in/maira-g-villegas-traverso-744679167/overlay/photo/"
+            "link": "https://www.linkedin.com/in/maira-g-villegas-traverso-744679167/"
         },
         "mentee": {
             "nombre": "Yanina",
@@ -513,7 +513,7 @@
         "mentor": {
             "nombre": "Manuel Lisandro",
             "apellido": "Perez",
-            "foto_perfil": "https://i.postimg.cc/Jtw5sckf/persona.jpg",
+            "foto_perfil": "https://i.postimg.cc/dV33YQyH/jpmorgan.jpg",
             "rol": "Mentor",
             "SALA": 27,
             "link": "https://www.linkedin.com/in/manuelperez27/"
@@ -530,7 +530,7 @@
         "mentor": {
             "nombre": "Manuel Lisandro",
             "apellido": "Perez",
-            "foto_perfil": "https://i.postimg.cc/Jtw5sckf/persona.jpg",
+            "foto_perfil": "https://i.postimg.cc/dV33YQyH/jpmorgan.jpg",
             "rol": "Mentor",
             "SALA": 27,
             "link": "https://www.linkedin.com/in/manuelperez27/"
@@ -590,7 +590,7 @@
         "mentee": {
             "nombre": "Evelyn",
             "apellido": "Lorenz",
-            "foto_perfil":"https://i.postimg.cc/Jtw5sckf/persona.jpg",
+            "foto_perfil":"https://i.postimg.cc/rp9SPwXh/Evelyn-Lorenz.jpg",
             "link":"https://www.linkedin.com/in/evelyn-lorenz-374919233/",
             "rol": "Mentee"
         }
@@ -599,7 +599,7 @@
         "mentor": {
             "nombre": "Maria Luna",
             "apellido": "Molina",
-            "foto_perfil": "https://i.postimg.cc/Jtw5sckf/persona.jpg",
+            "foto_perfil": "https://i.postimg.cc/R3b78NjW/Luna-Molina.jpg",
             "rol": "Mentor",
             "SALA": 30,
             "link": "https://www.linkedin.com/in/lunamolina/"
@@ -667,7 +667,7 @@
         "mentor": {
             "nombre": "Mariano Carlos",
             "apellido": "Sosa",
-            "foto_perfil": "https://i.postimg.cc/Jtw5sckf/persona.jpg",
+            "foto_perfil": "https://i.postimg.cc/dV33YQyH/jpmorgan.jpg",
             "rol": "Mentor",
             "SALA": 33,
             "link": "https://www.linkedin.com/in/marianocsosa/"
@@ -718,7 +718,7 @@
         "mentor": {
             "nombre": "Rosaura",
             "apellido": "Azul",
-            "foto_perfil": "https://i.postimg.cc/Jtw5sckf/persona.jpg",
+            "foto_perfil": "https://i.postimg.cc/dV33YQyH/jpmorgan.jpg",
             "rol": "Mentor",
             "SALA": 35,
             "link": "#"

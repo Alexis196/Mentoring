@@ -26,7 +26,7 @@ fetch('./data.json')
                 <div class="mentee">
                         <div class='info-mentee'>
                             <span>${user.mentee.rol}</span>
-                            <h4 class="card-text">${user.mentee.nombre} ${user.mentee.apellido}</h4>
+                            <h4 class="card-title">${user.mentee.nombre} ${user.mentee.apellido}</h4>
                         </div>
                     <a href="${user.mentee.link}" target="_blank">
                         <img class="img-perfil" src="${user.mentee.foto_perfil}" class="card-img-top" alt="${user.mentee.nombre}">
