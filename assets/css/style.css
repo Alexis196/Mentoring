@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
 }
 
 body {
@@ -15,6 +18,7 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
 }
 
@@ -24,23 +28,40 @@ nav {
 }
 
 .logo-pescar {
-    width: 140px;
-    object-fit: contain;
+    width: 130px;
+}
+
+.logo-loreal {
+    width: 80px;
+    height: 80px;
+    padding: .5rem;
+    background-color: #cccccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .banner {
-    color: #d6d6d6;
+    color: #ffffff;
     text-shadow: 0px 0px 3px #000;
 }
 
 .banner h1 {
     font-size: 4rem;
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 .banner h2 {
     font-size: 2.5rem;
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 .buscador {
@@ -54,10 +75,9 @@ nav {
     font-size: 20px;
     font-weight: 500;
     padding-left: 1rem;
-    border: none;
-    outline: none;
     border: 1px solid #ff9327;
     border-radius: 10px 0px 0px 10px;
+    outline: none;
 }
 
 .lupa {
@@ -82,7 +102,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: .5rem;
-    background-image: linear-gradient(144deg, #6bd7f7, #6bd7f7 30%, #c2c2c2);
+    background-image: linear-gradient(144deg, #6bd7f7, #6bd7f7 30%, #0003b1);
     border: 2px solid #ff8002;
     border-radius: 10px;
 }
@@ -93,6 +113,7 @@ nav {
     padding: .3rem;
     object-fit: cover;
     border-radius: 50%;
+    border: 2px solid #ff8002;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -100,6 +121,7 @@ nav {
 .img-perfil:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-color: white;
 }
 
 .img-perfil:hover::after {
@@ -150,17 +172,25 @@ nav {
     gap: 1.5rem;
 }
 
-.info-mentor {
+.info-mentor,
+.info-mentee {
     width: 235px;
     display: flex;
     flex-direction: column;
+    text-shadow: 0px 0px 1px #ffffff;
+    font-weight: bold;
+    color: #333;
+
 }
 
 .info-mentee {
-    width: 235px;
     margin-left: .5rem;
-    display: flex;
-    flex-direction: column;
+}
+
+.card-title {
+    font-size: 24px;
+    text-shadow: 0px 0px 2px #ffffff;
+    font-weight: bold;
 }
 
 .SALA {
@@ -170,11 +200,27 @@ nav {
     font-weight: bold;
     color: #000000;
     text-align: center;
-    border: 1px dashed #ff9327;
+    border-top: 1px dashed #ff9327;
+    border-bottom: 1px dashed #ff9327;
 }
 
 .text-SALA {
     margin: 0;
     width: 100px;
-    text-shadow: 0px 0px 1px #ff9327;
+    text-shadow: 0px 0px 1px #ffffff;
+    font-weight: bold;
 }
+
+/* .SALA{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+.text-SALA{
+    border-top: 1px dashed #ff9327;
+    border-bottom: 1px dashed #ff9327;
+    margin: 0;
+    font-size: 18px;
+    text-shadow: 0px 0px 1px #ff9327;
+} */
