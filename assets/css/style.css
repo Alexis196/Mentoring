@@ -210,3 +210,27 @@ nav {
     text-shadow: 0px 0px 1px #ffffff;
     font-weight: bold;
 }
+
+@media (max-width:768px) {
+    .img-nav {
+        width: 70px;
+        height: 70px;
+    }
+    .logo-pescar, .img-nav {
+        width: 80px;
+        height: 80px;
+    }
+    .card-mentoring{
+        width: 340px;
+    }
+}
+
+@media(max-width:500px) {
+    .logo-pescar, .img-nav {
+        width: 50px;
+        height: 50px;
+    }
+    .card-mentoring{
+        width: 340px;
+    }
+}
